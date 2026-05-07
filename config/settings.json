@@ -1,0 +1,22 @@
+{
+  "project": {
+    "name": "Conversor PDF para PNG",
+    "version": "1.0.0",
+    "description": "Converte paginas de PDF em imagens PNG com download em massa via ZIP.",
+    "author": "Seu Nome",
+    "license": "MIT"
+  },
+  "converter": {
+    "default_scale": 2.0,
+    "min_scale": 1.0,
+    "max_scale": 3.0,
+    "output_format": "image/png",
+    "zip_compression_level": 6
+  },
+  "ui": {
+    "theme_primary": "#3498db",
+    "theme_secondary": "#27ae60",
+    "theme_accent": "#9b59b6",
+    "grid_min_column_width": 300
+  }
+}
